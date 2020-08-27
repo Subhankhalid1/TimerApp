@@ -1,5 +1,11 @@
-.App {
-  text-align: center;
+.App1 {
+  /* text-align: center; */
+  background-color: white;
+  height: 100vh;
+  width: 100vw;
+}
+.darkNight{
+  background-color: black;
 }
 
 .App-logo {
@@ -35,4 +41,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+ .app-container {
+	height: 100vh;
+	width: 100vw;
+	align-items: center;
+	display: flex;
+  justify-content: center;
+  
+}
+
+.darkBtn:hover{
+  opacity: 70%;
+  background-color: rgb(5, 143, 74);
+  overflow: hidden;
 }
